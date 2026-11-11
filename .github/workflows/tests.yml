@@ -32,6 +32,9 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Prepare Laravel directories
+        run: mkdir -p storage/framework/cache/data storage/framework/sessions storage/framework/views storage/logs bootstrap/cache
+
       - name: Install Composer dependencies
         run: composer install --no-interaction --prefer-dist --no-progress
 

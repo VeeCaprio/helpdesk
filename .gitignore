@@ -20,9 +20,6 @@
 /src/storage/*.key
 /src/storage/pail
 /src/bootstrap/cache/*.php
-/src/storage/framework/cache/data/
-/src/storage/framework/sessions/
-/src/storage/framework/views/
 
 # IDE and OS files
 .idea/
