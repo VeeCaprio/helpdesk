@@ -1,0 +1,34 @@
+# Environment files
+.env
+/src/.env
+/src/.env.backup
+/src/.env.production
+
+# Local credentials and runtime state
+.github-token
+.github-user
+
+# Docker runtime data
+/db/data/
+/nginx/ssl/
+
+# Laravel dependencies and generated files
+/src/vendor/
+/src/node_modules/
+/src/public/hot
+/src/public/storage
+/src/storage/*.key
+/src/storage/pail
+/src/bootstrap/cache/*.php
+/src/storage/framework/cache/data/
+/src/storage/framework/sessions/
+/src/storage/framework/views/
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+*.log
+
+# Boilerplate local state
+.docker_cleanup_done
